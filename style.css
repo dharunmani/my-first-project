@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: burlywood;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+}
+
+nav ul li{
+    padding: 0 12px ;
+}
+
+
+.brand img{
+    width: 65px;
+    padding: 8px;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    height: 80vh;
+    background-color: black;
+    color: aqua;
+    font-family: 'Varela Round' , sans-serif;
+    margin: 23px auto;
+    display: flex;
+    width: 70%;
+    border-radius: 11px;
+    padding: 34px;
+    background-image: url("img.png");
+}
+
+.bottom{
+    position: sticky;
+    height: 60px;
+    color: aliceblue;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.icons{
+    margin: 14px;
+    cursor: pointer;
+    
+}
+#mysongs1{
+    width: 80vw;
+    cursor: pointer;
+  
+}
+.songItemcontainer{
+    margin-top: 25px;
+    
+
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem i {
+    cursor: pointer;;
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin: 0 12px;
+}
+.songinfo {
+   position: absolute;
+   left: 10vw;
+    
+}
